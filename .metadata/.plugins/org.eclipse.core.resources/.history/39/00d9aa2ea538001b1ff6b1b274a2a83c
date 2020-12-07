@@ -1,0 +1,76 @@
+
+public class Abdullah {
+	
+	public static void Hello() {
+        System.out.println("Hello");
+        System.out.println("How are you" + "\n");
+    }
+
+	public static int Increase(int a, int b) {
+        return a+b;
+    }
+	
+	public static void main(String[] args) {
+		
+		Hello();
+		
+		System.out.println( "45 + 25 = " + Increase(25, 45) + "\n");
+		
+		//Loop
+		System.out.println("Start");
+		
+		for(int i=1; i<=10; i++) {
+			System.out.println((i));
+		}
+		System.out.println("End" + "\n");
+		
+		
+		int[] numbers = new int[5];
+		 
+        // 2- åäÇ ÞãäÇ ÈÚÑÖ Þíã ÌãíÚ ÚäÇÕÑåÇ
+        for(int b=0; b<numbers.length; b++)
+        {
+            System.out.println("numbers[" + b + "]: " + numbers[b]);
+        }
+ 
+        // 3- åäÇ ÞãäÇ íÊÛííÑ Þíã ÌãíÚ ÚäÇÕÑåÇ
+        numbers[0] = 1000;
+        numbers[1] = 2000;
+        numbers[2] = 3000;
+        numbers[3] = 4000;
+        numbers[4] = 5000;
+ 
+        System.out.println();
+ 
+        // 4- åäÇ ÞãäÇ ÈÚÑÖ Þíã ÌãíÚ ÚäÇÕÑåÇ
+        for(int b=0; b<numbers.length; b++)
+        {
+            System.out.println("numbers[" + b + "]: " + numbers[b]);  
+ 
+    }
+ 
+
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}	
+	
+	
+ }
+	
+
+
+
+

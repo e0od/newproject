@@ -1,0 +1,35 @@
+
+public class Abdullah {
+	
+	public static void Hello() {
+        System.out.println("Hello");
+        System.out.println("How are you" + "\n");
+    }
+
+	public static int Increase(int a, int b) {
+        return a+b;
+    }
+	
+	public static void main(String[] args) {
+		
+		Hello();
+		System.out.println("Start");
+		
+		//Loop
+		for(int i=1; i<=10; i++) {
+			System.out.print(i);
+		}
+		System.out.println("End");
+		
+		System.out.println( "45 + 25 = " + Increase(25, 45) );
+		
+		
+		
+		
+		
+		}
+	
+}
+
+
+

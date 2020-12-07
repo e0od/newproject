@@ -1,0 +1,15 @@
+
+public class Abdullah {
+	
+	public static void welcomeMessage() {
+        System.out.println("Hello");
+    }
+
+	public static void main(String[] args) {
+		welcomeMessage();
+		}
+	
+}
+
+
+

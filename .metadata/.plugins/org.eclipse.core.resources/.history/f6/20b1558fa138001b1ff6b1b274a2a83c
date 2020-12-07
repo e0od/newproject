@@ -1,0 +1,27 @@
+
+public class Abdullah {
+	
+	public static void welcomeMessage() {
+        System.out.println("Hello");
+        System.out.println("How are you");
+    }
+
+	public static int Increase(int a, int b) {
+        return a+b;
+    }
+	
+	public static void main(String[] args) {
+		welcomeMessage();
+		
+		System.out.println( "45 + 25 = " + Increase(25, 45) );
+		
+		
+		
+		
+		
+		}
+	
+}
+
+
+

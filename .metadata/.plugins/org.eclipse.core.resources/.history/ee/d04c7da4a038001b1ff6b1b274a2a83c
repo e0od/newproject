@@ -1,0 +1,108 @@
+
+public class Abdullah {
+
+	public static void Hello(String name){
+		System.out.print("Hello " + name +"! ");
+		System.out.println("I'm Abdullah" + "\n");
+	}
+	
+	protected int add(int n1, int n2)
+	{
+	int e = n1 + n2;
+	return e;
+	
+	}
+	
+	
+	
+	private static int Substract(int n1, int n2)
+	{
+	return n1 - n2;	
+		}
+	
+	public static int sum(int a, int b) {
+        return a+b;
+    }
+	public static void main(String[] args) {
+		
+		Hello("Faisal");
+		Abdullah obj = new Abdullah();
+		
+		System.out.println( "5 + 10 = " + sum(10, 5) );
+		
+		System.out.println(obj.add(6, 4)+ "\n");
+		System.out.println(Substract(10,3) + "\n");
+		
+		
+		int totle = 0;
+			
+		for( int u=0; u<=100; u++ )
+			if(u%2==0)
+				totle = totle + u;
+		
+		System.out.println(totle);
+		
+	{
+		
+		
+	}
+		
+		
+		
+		
+		int numbers[][] = new int[5][3];
+		
+		int temp[][] = { {18,22,16,34,46}, {27,82,13,7,55} };
+		
+		
+		temp[0][0] = 15;
+		
+		for(int i=0; i < temp.length; i++)
+		{
+			for(int j=0; j < temp[i].length; j++)
+				System.out.print(temp[i][j] + "\t");
+			
+			System.out.println("\n");
+		}
+		
+//		for(int[] element: temp)
+//			for(int number: element)
+//				System.out.println(number);
+		
+        
+		
+		String [] Day = new String [7] ;
+		
+		Day[0] = " ÇáÓÈÊ " ;
+		Day[1] = " ÇáÇÍÏ " ;
+		Day[2] = " ÇáÇËäíä " ;
+		Day[3] = " ÇáËáËÇÁ " ;
+		Day[4] = " ÇáÇÑÈÚÇÁ " ;
+		Day[5] = " ÇáÎãíÓ " ;
+		Day[6] = " ÇáÌãÚÉ " ;
+	
+		
+		
+		for( int x=7; x<0; x++) {
+           System.out.println(Day[x]);
+	}
+		
+		for (int a=0; a<6; a++ ) {
+         System.out.println();
+		}
+		
+		int Days = 7 ;
+		if ( Days > 0 ) {
+		  System.out.println("");
+	}
+
+		else {
+			System.out.println("false" + "\n" + "\n");
+		}
+		
+	}
+	
+}
+
+
+
